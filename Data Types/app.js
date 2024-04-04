@@ -124,3 +124,8 @@ console.log(splicedArray, "spliced Array.....")
 // The rest of the parameters ("Zack" , "Chris") define the new elements to be added.
 // The splice() method returns an array with the deleted items.
 
+
+// Sorting
+let numbers = [3, 1, 4, 1, 5, 9, 2, 6];
+numbers.sort(); // Sorts the array in ascending order
+console.log(numbers); // Output: [1, 1, 2, 3, 4, 5, 6, 9]

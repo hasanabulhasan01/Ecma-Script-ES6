@@ -22,3 +22,11 @@ console.log(x == 6 || y == 3) // output: true
 
 console.log(!(x===y))// output: true
 console.log(!(x > y))// output: false
+
+
+let num1 = 10;
+let num2 = 5;
+let num3 = 15;
+
+console.log(num1 > num2 && num1 < num3); // Output: true (both conditions are true)
+console.log(num1 > num2 || num1 > num3); // Output: true (at least one condition is true)
