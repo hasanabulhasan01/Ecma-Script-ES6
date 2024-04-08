@@ -1,3 +1,10 @@
+// A for loop in JavaScript is used to execute a block of code repeatedly for a specified number of times.
+// It's particularly useful when you know exactly how many times you want to loop. 
+
+// for (initialization; condition; increment/decrement) {
+//   // code block to be executed
+// }
+
 const numbers = [1, 2, 3, 4, 5];
 for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
